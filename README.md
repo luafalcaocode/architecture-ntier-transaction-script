@@ -23,10 +23,10 @@ Antes de executar o projeto certifique-se de ter as configurações abaixo insta
 
 Siga os passos abaixo para rodar o projeto.
 
-1. Clone este repositório utilizando o GIT para um diretório na sua máquina: **git clone** https://github.com/luafalcaocode/alterdata-aspnetcore-api.git
+1. Clone este repositório utilizando o GIT para um diretório na sua máquina: **git clone** https://github.com/luafalcaocode/architecture-ntier-transaction-script.git
 2. Abra o projeto no Visual Studio 2019 (em modo Administrador).
 3. Altere a string de conexão **PostgreSQLConnection** configurada no arquivo **appsettings.json** para apontar para as configurações da sua máquina com um servidor PostgreSQL;
-4. Abra o console do Visual Studio (**navegue até Ferramentas > Gerenciador de Pacotes do Nuget > Console do Gerenciador de Pacotes**), verifique se o projeto principal está selecionado (**alterdata.api.Web**) e execute os dois comandos a seguir para configurar e gerar a estrutura do banco de dados:
+4. Abra o console do Visual Studio (**navegue até Ferramentas > Gerenciador de Pacotes do Nuget > Console do Gerenciador de Pacotes**), verifique se o projeto principal está selecionado (**luafalcao.api.Web**) e execute os dois comandos a seguir para configurar e gerar a estrutura do banco de dados:
 
 - **Add-Migration InitialCreate** (este comando registra o modelo de dados e habilita a sincronização com a estrutura física)
 - **Update-Database** (este comando cria o banco de dados baseado na configuração do arquivo **appsettings.json**)
